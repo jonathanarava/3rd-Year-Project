@@ -1,0 +1,26 @@
+Third year Computer Systems Engineering project.
+
+Engineered a model- sized, surveillance vehicle that streams video remotely and is controlled remotely by an android application. The project also requires for data to be received from a sensor (speed sensor mounted on the vehicle) to be logged into a database ( SQLite).
+
+The project parts consisted of :
+Vehicle:
+1) Raspberry Pi - controls the motors for the wheels
+2) Raspberry Pi - handles the video signal receiver and sender to the application over the Wi-Fi (local
+host)
+3) Speed Sensor - senses the speed of the vehicle
+
+Android Application
+View the video stream and also control the vehicle
+
+Computer
+1) SQLite database - stores the data from the sensors and also the instruction sent from the
+controller
+
+------------------------------------------------------------------------------------------------------------------------------
+Personal Accomplishments of the project:
+- Implemented a SQLite database to log the vehicle's speed received from the speed sensor mounted on the vehicle
+- Helped in developement of an android application that would control the vehicle's movements and also stream the video from the camera mounted on the vehicle.
+- Successful interaction between all the hardware and software
+
+-------------------------------------------------------------------------------------------------------------
+For a more detailed description and technical information please visit the attached GitHub URL.
